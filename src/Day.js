@@ -150,7 +150,7 @@ export default class Day extends Component {
         onFocus={handleEvent(onFocus, day, modifiers)}
       >
         <span className="DayPicker-ScreenReaderOnly">{ariaLabel}</span>
-        <span aria-hidden="true">{children}</span>
+        {children}
       </div>
     );
   }
